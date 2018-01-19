@@ -1,32 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h2>Tom Berton's Bio Page</h2><br>
-    <a href="mailto:thomas.berton@austincc.edu"><img src="images/me_garden.jpg" alt="Tom Berton" width="108" height="150"></a>
-    <p>I'm an Adjunct Professor at <a href="http://www.austincc.edu/" target="_blank"></a>Austin Community College,</a> 
-        where he teaches Nutrition and Biology for non-majors. As a former pro-triathlete, he is an avid runner, swims during the summer, and competes in  running events from 10K up to the marathon. 
-        He earned his Software Testing Certification at ACC in May 2016 and is currently working on his Data Analytics and Visualization Certification ay UT Austin.</p><br>
-    
-    <p>Tom Berton received his B.S. from the University of Houston in Biochemistry and his PhD. from the <a href="http://www.utexas.edu/" target="_blank">University of Texas at Austin</a> 
-        in <a href="https://he.utexas.edu/ntr" target="_blank">Nutritional Sciences</a>. 
-        After graduating from UT. Austin, Dr. Berton worked as a Postdoctoral Fellow in Houston at Baylor College of Medicine
-        in the Department of Cell Biology and in Smithville, Texas at U.T. MD Anderson Cancer Center, 
-        Department of Carcinogensis, and then as an Instructor at U.T. MD Anderson and Texas A&amp;M Health Science Center in the Department of Molecular Medicine. 
-        During his time in research he integrated multidisciplinary fields such as, nutrition, cell and molecular biology, genetics, dermatology, histopathology, 
-        mouse models of cancer, and stem cell techniques to investigate  DNA repair, apoptosis, cell cycle and hormonal regulation,  
-        and biomarkers of inflammation in the area of epidermal and mammary carcinogenesis, and metabolic syndrome. 
-        He has mentored and trained high school students, technicians, undergraduate and graduate students, and Postdoctoral Fellows in the lab.</p><br>
+    <title>Tom Berton - Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Titillium+Web" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="css/style.css">
 
-    <ul><h3>Email and Social Media</h3>
-        <li><strong><a href="mailto:thomas.berton@austincc.edu">My email at ACC</a></strong></li>
-        <li><strong><a href="https://github.com/TomBerton" target="_blank">My GitHub account</a></strong></li>
-        <li><strong><a href="https://www.linkedin.com/in/tom-berton-626b3413" target="_blank">My LinkedIn account</a></li></strong>
-    </ul>
+</head>
+<!--This is the "nav bar"-->
+
+<body>
+
+
+        <nav class="navbar navbar-default navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false"
+                        aria-controls="navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="home" class="active navbar-brand brand_color" href="index.html">Tom Berton</a>
+                </div>
+                <div>
+    
+                    <div class="collapse navbar-collapse" id="myNavbar">
+    
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GitHub Repo
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu drop_down_color">
+                                    <li>
+                                        <a href="https://github.com/TomBerton/WeatherPy">Weather Data</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/TomBerton/SQLAlchemy">Hawaii Climate Analysis</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/TomBerton/Pymaceuticals">Chemotherapy Analysis</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/TomBerton/PySocialAnalytics">Social Analytics</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/TomBerton/Group_5_Project">Group Project 1</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="http://www.austincc.edu/">ACC Homepage</a>
+                                </li>
+                                <li>
+                                <a href="data.html"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+        <!--End "nav bar"-->
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="jumbotron">
+                <a href="mailto:thomas.berton@austincc.edu">
+                    <img id="image" src="images/me_garden.jpg" alt="Tom Berton" width="100" height="150" class="pull-left img-responsive img-rounded">
+                </a>
+                <p>I'm an Adjunct Professor at
+                    <a href="http://www.austincc.edu/" target="_blank">Austin Community College,</a>
+                    where I teach Nutrition and Biology. I also help manage the Biology Department's WordPress
+                    <a href="http://sites.austincc.edu/biology/"> website.</a>
+                    I am an avid runner and compete in running events from 10K up to the marathon. I earned my Software Testing Certification
+                    at ACC in May 2016 and I am currently working getting my
+                    <a href="https://techbootcamps.extendedcampus.utexas.edu/data/">Data Analytics and Visualization Certification at</a> UT Austin.</p>
+                <br>
+            </div>
+        </div>
+    </div>
 </body>
+<div class="container-fluid">
+    <footer style="background-color: lightblue">
+        
+            <a href="mailto:thomas.berton@austincc.edu">
+                <i class="fa fa-envelope"></i>
+            </a>
+            <a href="https://github.com/TomBerton">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tom-berton-626b3413">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/tomberton">
+                <i class="fa fa-twitter"></i>
+            </a>
+
+            <p class="footer-p">
+                <small>© Copyright Tom Berton 2018</small>
+            </p>
+       
+    </footer>
+</div>
+
 </html>
