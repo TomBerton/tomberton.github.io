@@ -3,12 +3,12 @@
 	font-size: 1.8em;
 }
 .navbar {
-	background-color: lightblue;
+	background-color: #add8e6;
 }
 nav a {
 	color: black !important;
 	font-size: 1.2em;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Hind Vadodara', sans-serif;
 }
 
 .drop_down_color{
@@ -22,17 +22,21 @@ nav a {
 body {
 	padding: 10px;
 	margin: 10px;
-	font-family: 'Titillium Web', sans-serif;	
+	font-family: 'Hind Vadodara', sans-serif;	
 }
 
+.jumbotron {
+	background: #e8f7f0;
+}
 #image {
-	margin-right: 15px;
-	margin-top: 8px;	
+	margin: 10px;
   }
-
+.img-border {
+	margin: 5px;
+}
 
 p {
-	margin: 3px;
+	margin: 10px;
 }
 
 .footer-p {
@@ -46,6 +50,7 @@ p {
 
 footer {
 	text-align: center;
+	background: lightblue;
 }
 .fa {
 	color: black;
